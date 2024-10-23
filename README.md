@@ -43,7 +43,7 @@ Assurez-vous que vous avez les éléments suivants avant de démarrer :
 - [Leaflet.js](https://leafletjs.com/) : Documentation officielle de Leaflet
 - [API Wikipedia](https://www.mediawiki.org/wiki/API:REST_API) : Documentation sur l'API REST de Wikipedia
 
-## Contribution
+## Contribution 
 
 Les contributions sont les bienvenues ! Si vous souhaitez apporter des améliorations ou signaler un problème, n'hésitez pas à ouvrir une issue ou une pull request sur ce dépôt.
 
