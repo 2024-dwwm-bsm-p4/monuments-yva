@@ -12,7 +12,7 @@
 * {
     margin: 0;
     padding: 0;
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
 }
 
 html,
@@ -41,7 +41,12 @@ input,
 button,
 textarea,
 select {
+    width: 15%;
     font: inherit;
+    background-color: #1E1E1E;
+    padding: 5px;
+    color: #FFFFFF;
+    font-size: 1.3rem;
 }
 
 p,
@@ -81,7 +86,13 @@ h1{
     font-weight: bold;
 }
 .start{
+    border: #1E1E1E 1px solid;
+    height: 20vh;
+    aspect-ratio: 1/1;
+    background-size: cover;
+    background-repeat: no-repeat;
     /* display: flex; */
+    background-image: url(./images/brief_monuments.webp);
     align-self: center;
 }
 .contentbtn{
@@ -90,29 +101,39 @@ h1{
     align-items: center;
     flex-direction: column;
     width: 100vw;
-    height: 30vh;
+    height: auto;
 }
 
 .content-btn{
     display: flex;
     justify-content: space-between;
     height: 20%;
-    width: 70%;
+    width: 100%;
 }
-.btn-hide{
+.btn-hide .hide{
 display: none;
 }
 
 .contentCard{
     width: 100vw;
     height: 50vh;
+    gap: 5px;
 }
 
 .div-card{
-outline: #1E1E1E solid 2px;
+    position: relative;
+    outline: #1E1E1E solid 2px;
     width: 20%;
     height: 300px;
 }
+.div-card img{
+    width: 100%;
+    height:100% ;
+    position: absolute;
+}
+.filter {
+    filter: grayscale(100%);
+  }
 .output{
     width: 100vw;
     height: 30vh;
