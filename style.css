@@ -191,6 +191,7 @@ display: none;
     filter: grayscale(100%);
   }
 .output{
+    margin-top: 20px;
     position: relative;
     width: 100vw;
     max-height: 70vh;
