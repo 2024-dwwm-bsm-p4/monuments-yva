@@ -11,6 +11,8 @@
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
   </head>
 
@@ -21,28 +23,33 @@
         <h2>
           Cliquez sur un element ou sur son bouton pour obtenir une description.
         </h2>
+        <div class="tampon">
         <div class="flex-row content-btn">
           <div class="start"></div>
-          <button class="btn-hide  btn-effeil">Tour effeil</button>
-          <button class="btn-hide  btn-triomphe">Arc de triomphe</button>
-          <button class="btn-hide  btn-michel">Monts St michel</button>
-          <button class="btn-hide  btn-versailles">Versailles</button>
-          <button class="btn-hide  btn-versailles">notre Dame</button>
-
-
+          <button class="btn-hide  btn-eiffel" data-monument="Tour_Eiffel" style="display: none;">Tour Eiffel</button>
+          <button class="btn-hide  btn-dame" data-monument="Notre_Dame_de_Paris" style="display: none;">Notre-Dame</button>
+          <button class="btn-hide  btn-triomphe" data-monument="Arc_de_Triomphe" style="display: none;">Arc de triomphe</button>
+          <button class="btn-hide  btn-michel" data-monument="Mont_Saint_Michel" style="display: none;">Le Mont-Saint-Michel</button>
+          <button class="btn-hide  btn-versailles" data-monument="Château_de_Versailles" style="display: none;">Versailles</button>
+          
         </div>
-      </div>
+    </div>
+      </div>i
     </header>
     <div class="contentCard flex-row">
-        <div class="div-card effeil filter"><img src="./images/tour_eiffel.jpg" alt=""></div>
+        <div class="div-card eiffel filter"><img src="./images/tour_eiffel.jpg" alt=""></div>
         <div class="div-card  dame filter"><img src="./images/notre_dame.jpg" alt=""></div>
         <div class="div-card  triomphe filter"><img src="./images/arc_de_triomphe.jpg" alt=""></div>
         <div class="div-card  michel filter"><img src="./images/mont_saint_michel.jpg" alt=""></div>
         <div class="div-card  versailles filter"><img src="./images/versailles.jpg" alt=""></div>
     </div>
     <div class="output">
-        <p>info</p>
+     <div class="content-output">
+
+     </div>
     </div>
     <script type="text/javascript" src="script.js"></script>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
   </body>
 </html>

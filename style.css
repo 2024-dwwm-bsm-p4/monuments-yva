@@ -12,12 +12,13 @@
 * {
     margin: 0;
     padding: 0;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 html,
 body {
     height: 100%;
+    width: 100vw;
 }
 
 body {
@@ -41,12 +42,7 @@ input,
 button,
 textarea,
 select {
-    width: 15%;
-    font: inherit;
-    background-color: #1E1E1E;
-    padding: 5px;
-    color: #FFFFFF;
-    font-size: 1.3rem;
+
 }
 
 p,
@@ -59,10 +55,24 @@ h6 {
     overflow-wrap: break-word;
 }
 
-/* button {
-    background-color: unset;
-    border: unset;
-} */
+button {
+    text-wrap: wrap;
+    min-width: 213px;
+    font: inherit;
+    background-color: #1E1E1E; /* Couleur de fond noire */
+    padding: 10px 20px; /* Espacement intérieur */
+    color: #FFFFFF; /* Texte blanc */
+    font-size: 1.3rem;
+    display: none; /* Le bouton est caché par défaut */
+    border: none; /* Pas de bordure */
+    cursor: pointer; /* Changement de curseur au survol */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Animation douce pour les changements */
+}
+
+button:hover {
+    background-color: #333333; /* Couleur de fond légèrement plus claire au survol */
+    transform: scale(1.05); /* Effet de zoom léger au survol */
+}
 
 a {
     text-decoration: unset;
@@ -87,29 +97,67 @@ h1{
     font: 3rem sans-serif;
     font-weight: bold;
 }
-.start{
+/* Centrer la div start dans son parent */
+.start {
     border: #1E1E1E 1px solid;
     height: 20vh;
     aspect-ratio: 1/1;
     background-size: cover;
     background-repeat: no-repeat;
-    /* display: flex; */
     background-image: url(./images/brief_monuments.webp);
     align-self: center;
+    position: relative;
+    transform: translateX(350%); /* Déplacement complet à gauche */
+
+    transition: transform 0.5s ease; /* Animation pour le déplacement */
+}
+.start:hover {
+    /* transform: scale(1.05);  */
+}
+
+/* Quand la div start est cliquée, elle part à gauche */
+.start.move-left {
+    margin-right: -1px;
+    transform: translateX(4%); /* Déplacement complet à gauche */
+}
+
+/* Cacher les boutons par défaut avec position absolue */
+.content-btn {
+    position: absolute;
+    width: 100%;
+    top: 0; /* Positionne les boutons par rapport au parent */
+    left: 50%; /* Les boutons démarrent à gauche du parent */
+    transform: translateX(-50%);
+    display: none; /* Cachés au début */
+}
+
+/* Afficher les boutons après que start a bougé */
+.start.move-left ~ .content-btn {
+    display: flex;
+    justify-content: space-between;
+    height: 20%;
+}
+
+.tampon{
+    position: relative;
+    width: 100vw;
+    height: 410px;
 }
 .contentbtn{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    width: 100vw;
+    width: 100%;
+    /* height: 264px; */
     height: auto;
 }
 
 .content-btn{
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
-    height: 20%;
+    height: 100%;
     width: 100%;
     overflow: hidden; /* Masquer les éléments en dehors du conteneur */
 }
@@ -120,16 +168,18 @@ display: none;
 .contentCard{
     margin-right: 25px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     width: 100vw;
-    height: 50vh;
+    height: auto;
     gap: 5px;
 }
 
 .div-card{
     position: relative;
     outline: #1E1E1E solid 2px;
-    width: 19%;
+    width: 227px;
     height: 300px;
 }
 .div-card img{
@@ -141,8 +191,49 @@ display: none;
     filter: grayscale(100%);
   }
 .output{
+    position: relative;
     width: 100vw;
-    height: 30vh;
-    color: #FFFFFF;
-    background-color: #1E1E1E;
+    max-height: 70vh;
+    height: 40vh;
 }
+
+.content-output {
+    position: absolute;
+    width: 100%;
+    min-height: 40vh;
+    height: auto;
+    background-color: #1E1E1E;
+    color: white;
+    padding: 20px;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+.info-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.info-card h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.info-card p {
+    font-size: 1.2rem;
+}
+
+#leaflet-map {
+    margin: 0px;
+    /* right: 0; */
+    /* top: 0; */
+    /* width: 200px; */
+    /* height: 200px; */
+    position: absolute;
+    float: right;
+    /* z-index: 100; */
+}
+
