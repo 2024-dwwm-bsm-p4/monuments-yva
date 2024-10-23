@@ -78,7 +78,9 @@ a {
     align-items: center;
     justify-content: center;
 }
- 
+ header{
+    width: 100vw;
+ }
 h1{
     margin: 20px 0 20px 0;
     text-align: center;
@@ -109,12 +111,16 @@ h1{
     justify-content: space-between;
     height: 20%;
     width: 100%;
+    overflow: hidden; /* Masquer les éléments en dehors du conteneur */
 }
-.btn-hide .hide{
+/* .btn-hide .hide{
 display: none;
-}
+} */
 
 .contentCard{
+    margin-right: 25px;
+    display: flex;
+    flex-wrap: wrap;
     width: 100vw;
     height: 50vh;
     gap: 5px;
@@ -123,7 +129,7 @@ display: none;
 .div-card{
     position: relative;
     outline: #1E1E1E solid 2px;
-    width: 20%;
+    width: 19%;
     height: 300px;
 }
 .div-card img{
