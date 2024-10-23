@@ -143,6 +143,11 @@ h1{
     width: 100vw;
     height: 410px;
 }
+@container (max-width: 400px) {
+    .tampon {
+        height: 425px; /* 375px + 50px */
+    }
+}
 .contentbtn{
     display: flex;
     justify-content: space-evenly;
@@ -198,6 +203,7 @@ display: none;
 }
 
 .content-output {
+    margin-top: 20px;
     position: absolute;
     width: 100%;
     min-height: 40vh;
