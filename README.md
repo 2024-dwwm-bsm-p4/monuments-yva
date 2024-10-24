@@ -47,3 +47,41 @@ Assurez-vous que vous avez les éléments suivants avant de démarrer :
 
 Les contributions sont les bienvenues ! Si vous souhaitez apporter des améliorations ou signaler un problème, n'hésitez pas à ouvrir une issue ou une pull request sur ce dépôt.
 
+
+## Critères de performance
+
+- Ajoutez la grille d'évaluation ci-dessous dans le README de la personne que vous corrigez.
+- Pensez à compléter le ***nom de la personne corrigée*** et le ***nom du correcteur*** dans l'entête du tableau.
+- Indiquez le **nombre d'étoiles obtenues** (l'étoile d'une catégorie est obtenue si tous ses critères de performance sont validés).
+
+| *nom de la personne corrigée*          |                               | *nom du correcteur*       |
+| :---- | :----: | :---: |
+| Critères de performance                |                               | Remarques du correcteur   |
+| ***Interface utilisateur***            |                               |                           |
+| - Respect de la maquette               | <ul><li>- [ ] &nbsp;</li><ul> |                           |
+| - Interface interactive                | <ul><li>- [ ] &nbsp;</li><ul> |                           |
+|                                        | <ul><li>- [ ] ⭐</li><ul>     |                           |
+| ***Fonctionnalités***                  |                               |                           |
+| - Boutons et clic sur images fonctionnels | <ul><li>- [ ] &nbsp;</li><ul> |                        |
+| - Description correspondant au monument sélectionné | <ul><li>- [ ] &nbsp;</li><ul> |              |
+| - Transitions sur les informations     | <ul><li>- [ ] &nbsp;</li><ul> |                           |
+|                                        | <ul><li>- [ ] ⭐</li><ul>     |                           |
+| ***Code***                             |                               |                           |
+| - Organisation et lisibilité du code   | <ul><li>- [ ] &nbsp;</li><ul> |                           |
+| - Respect des bonnes pratiques HTML/CSS/JS | <ul><li>- [ ] &nbsp;</li><ul> |                       |
+| - Commentaires dans le code            | <ul><li>- [ ] &nbsp;</li><ul> |                           |
+|                                        | <ul><li>- [ ] ⭐</li><ul>     |                           |
+| ***Bonus***                            |                               |                           |
+| - Filtre N/B sur les images lors de la sélection | <ul><li>- [ ] &nbsp;</li><ul> |                 |
+| - Carte avec marqueurs                 | <ul><li>- [ ] &nbsp;</li><ul> |                           |
+|                                        | <ul><li>- [ ] ⭐</li><ul>     |                           |
+| ***Big Bonus***                        |                               |                           |
+| - Carte avec marqueurs via API         | <ul><li>- [ ] &nbsp;</li><ul> |                           |
+|                                        |                               |
+| ***Livrables***                        |                               |                           |
+| - Projet livré dans les délais         | <ul><li>- [ ] &nbsp;</li><ul> |                           |
+|                                        | <ul><li>- [ ] ⭐</li><ul>     |                           |
+
+**Nombre d'étoiles obtenues** : ⭐⭐⭐⭐⭐⭐
+
+
