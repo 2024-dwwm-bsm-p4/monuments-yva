@@ -54,33 +54,33 @@ Les contributions sont les bienvenues ! Si vous souhaitez apporter des améliora
 - Pensez à compléter le ***nom de la personne corrigée*** et le ***nom du correcteur*** dans l'entête du tableau.
 - Indiquez le **nombre d'étoiles obtenues** (l'étoile d'une catégorie est obtenue si tous ses critères de performance sont validés).
 
-| *nom de la personne corrigée*          |                               | *nom du correcteur*       |
+| *Yohan*          |                               | *Lamour Marine*       |
 | :---- | :----: | :---: |
 | Critères de performance                |                               | Remarques du correcteur   |
 | ***Interface utilisateur***            |                               |                           |
-| - Respect de la maquette               | <ul><li>- [ ] &nbsp;</li><ul> |                           |
-| - Interface interactive                | <ul><li>- [ ] &nbsp;</li><ul> |                           |
-|                                        | <ul><li>- [ ] ⭐</li><ul>     |                           |
+| - Respect de la maquette               | <ul><li>- [x] &nbsp;</li><ul> |                           |
+| - Interface interactive                | <ul><li>- [x] &nbsp;</li><ul> |                           |
+|                                        | <ul><li>- [x] ⭐</li><ul>     |                           |
 | ***Fonctionnalités***                  |                               |                           |
-| - Boutons et clic sur images fonctionnels | <ul><li>- [ ] &nbsp;</li><ul> |                        |
-| - Description correspondant au monument sélectionné | <ul><li>- [ ] &nbsp;</li><ul> |              |
-| - Transitions sur les informations     | <ul><li>- [ ] &nbsp;</li><ul> |                           |
-|                                        | <ul><li>- [ ] ⭐</li><ul>     |                           |
+| - Boutons et clic sur images fonctionnels | <ul><li>- [x] &nbsp;</li><ul> |                        |
+| - Description correspondant au monument sélectionné | <ul><li>- [x] &nbsp;</li><ul> |              |
+| - Transitions sur les informations     | <ul><li>- [x] &nbsp;</li><ul> |                           |
+|                                        | <ul><li>- [x] ⭐</li><ul>     |                           |
 | ***Code***                             |                               |                           |
-| - Organisation et lisibilité du code   | <ul><li>- [ ] &nbsp;</li><ul> |                           |
-| - Respect des bonnes pratiques HTML/CSS/JS | <ul><li>- [ ] &nbsp;</li><ul> |                       |
-| - Commentaires dans le code            | <ul><li>- [ ] &nbsp;</li><ul> |                           |
-|                                        | <ul><li>- [ ] ⭐</li><ul>     |                           |
+| - Organisation et lisibilité du code   | <ul><li>- [x] &nbsp;</li><ul> |                           |
+| - Respect des bonnes pratiques HTML/CSS/JS | <ul><li>- [x] &nbsp;</li><ul> |                       |
+| - Commentaires dans le code            | <ul><li>- [x] &nbsp;</li><ul> |                           |
+|                                        | <ul><li>- [x] ⭐</li><ul>     |                           |
 | ***Bonus***                            |                               |                           |
-| - Filtre N/B sur les images lors de la sélection | <ul><li>- [ ] &nbsp;</li><ul> |                 |
-| - Carte avec marqueurs                 | <ul><li>- [ ] &nbsp;</li><ul> |                           |
-|                                        | <ul><li>- [ ] ⭐</li><ul>     |                           |
+| - Filtre N/B sur les images lors de la sélection | <ul><li>- [x] &nbsp;</li><ul> |                 |
+| - Carte avec marqueurs                 | <ul><li>- [x] &nbsp;</li><ul> |                           |
+|                                        | <ul><li>- [x] ⭐</li><ul>     |                           |
 | ***Big Bonus***                        |                               |                           |
-| - Carte avec marqueurs via API         | <ul><li>- [ ] &nbsp;</li><ul> |                           |
+| - Carte avec marqueurs via API         | <ul><li>- [x] &nbsp;</li><ul> |                           |
 |                                        |                               |
 | ***Livrables***                        |                               |                           |
-| - Projet livré dans les délais         | <ul><li>- [ ] &nbsp;</li><ul> |                           |
-|                                        | <ul><li>- [ ] ⭐</li><ul>     |                           |
+| - Projet livré dans les délais         | <ul><li>- [x] &nbsp;</li><ul> |                           |
+|                                        | <ul><li>- [x] ⭐</li><ul>     |                           |
 
 **Nombre d'étoiles obtenues** : ⭐⭐⭐⭐⭐⭐
 
